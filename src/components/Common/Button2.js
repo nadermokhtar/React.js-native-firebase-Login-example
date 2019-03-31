@@ -3,7 +3,7 @@ import { Text, TouchableOpacity, StyleSheet } from "react-native";
 
 const Button2 = ({ onPress, children }) => {
   return (
-    <TouchableOpacity onPress= {onPress} style={styles.buttonStyle}>
+    <TouchableOpacity onPress={onPress} style={styles.buttonStyle}>
       <Text style={styles.textStyle}>{children}</Text>
     </TouchableOpacity>
   );
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export  {Button2};
+export { Button2 };
